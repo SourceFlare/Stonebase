@@ -1,4 +1,4 @@
-# STONEBASE
+# Stonebase
 Stonebase isn't just another CSS framework, it's much more than that.  Stonebase is mobile-first but specifically developed to work with 4K screens, and up.
 
 ### DOCUMENTATION
