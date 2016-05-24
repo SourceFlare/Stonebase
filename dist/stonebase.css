@@ -12,15 +12,20 @@
  */
 
 /** Containers, Columns, and Grids **/
-    *[class^=nano-] { float:left; } *[class^=small-] { float:left; } *[class^=medium-] { float:left; } *[class^=large-] { float:left; } *[class^=mega-] { float:left; } *[class^=ultra-] { float:left; }
+    .container {padding:0 3em; margin:auto;}
+    .row {padding:1em 0; margin:auto;}
+    .grid-700 {max-width:700px} .grid-800 {max-width:800px} .grid-900 {max-width:900px} .grid-960 {max-width:960px} .grid-1024 {max-width:1024px} .grid-1440 {max-width:1440px} .grid-1680 {max-width:1680px} .grid-1920 {max-width:1920px} .grid-2048 {max-width:2048px} .grid-4096 {max-width:4096px}
+    *[class^=nano-], *[class^=small-], *[class^=medium-], *[class^=large-], *[class^=mega-], *[class^=ultra-] {float:left; padding:0 1em}
 
 /** NANO **/
 @media screen and (min-width:0px) {
+    .container {padding:0 1em}
     .nano-1 { width:4.16666%; } .nano-2 { width:8.33333%; } .nano-3 { width:12.49998%; } .nano-4 { width:16.66664%; } .nano-5 { width:20.83333%; } .nano-6 { width:24.99996%; } .nano-7 { width:29.16662%; } .nano-8 { width:33.33328%; } .nano-9 { width:37.49994%; } .nano-10 { width:41.66666%; } .nano-11 { width:45.83326%; } .nano-12 { width:49.99992%; } .nano-13 { width:54.16658%; } .nano-14 { width:58.33324%; } .nano-15 { width:62.49999%; } .nano-16 { width:66.66656%; } .nano-17 { width:70.83322%; } .nano-18 { width:74.99998%; } .nano-19 { width:79.16654%; } .nano-20 { width:83.33320%; } .nano-21 { width:87.49986%; } .nano-22 { width:91.66652%; } .nano-23 { width:95.83318%; } .nano-24 { width:100.0000%; }
 }
 
 /** SMALL **/
 @media screen and (min-width:400px) {
+    .container {padding:0 2em}
     .small-1 { width:4.16666%; } .small-2 { width:8.33333%; } .small-3 { width:12.49998%; } .small-4 { width:16.66664%; } .small-5 { width:20.83333%; } .small-6 { width:24.99996%; } .small-7 { width:29.16662%; } .small-8 { width:33.33328%; } .small-9 { width:37.49994%; } .small-10 { width:41.66666%; } .small-11 { width:45.83326%; } .small-12 { width:49.99992%; } .small-13 { width:54.16658%; } .small-14 { width:58.33324%; } .small-15 { width:62.49999%; } .small-16 { width:66.66656%; } .small-17 { width:70.83322%; } .small-18 { width:74.99998%; } .small-19 { width:79.16654%; } .small-20 { width:83.33320%; } .small-21 { width:87.49986%; } .small-22 { width:91.66652%; } .small-23 { width:95.83318%; } .small-24 { width:100.0000%; }
 }
 
