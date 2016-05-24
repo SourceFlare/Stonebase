@@ -9,13 +9,13 @@ You can install Stonebase in your project using Bower or Composer.
 
 ##### Bower Installation
 
-  cd /PATH_OF_PROJECT/
-  bower stonebase
+    cd /PATH_OF_PROJECT/
+    bower stonebase
 
 ##### Composer Install
 
-  cd /PATH_OF_PROJECT/
-  composer stonebase
+    cd /PATH_OF_PROJECT/
+    composer stonebase
 
 ### CONTRIBUTING
 See the CONTRIBUTING.md file for more information.
