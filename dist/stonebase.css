@@ -3,7 +3,7 @@
  * @url http://sourceflare.uk/stonebase
  * @author Sourceflare
  * 1. Containers, Columns, and Grids
- * 2.
+ * 2. Alignment & Positioning
  * 3.
  * 4.
  * 5.
@@ -11,13 +11,19 @@
  * 7. Breakpoints
  */
 
-/** Containers, Columns, and Grids **/
-    .container {padding:0 3em; margin:auto;}
-    .row {padding:1em 0; margin:auto;}
-    .grid-700 {max-width:700px} .grid-800 {max-width:800px} .grid-900 {max-width:900px} .grid-960 {max-width:960px} .grid-1024 {max-width:1024px} .grid-1440 {max-width:1440px} .grid-1680 {max-width:1680px} .grid-1920 {max-width:1920px} .grid-2048 {max-width:2048px} .grid-4096 {max-width:4096px}
-    *[class^=nano-], *[class^=small-], *[class^=medium-], *[class^=large-], *[class^=mega-], *[class^=ultra-] {float:left; padding:0 1em}
+/** 1. Containers, Columns, and Grids **/
+    * {box-sizing:border-box;}
+    .container{padding:0 3em; margin:auto; clear:both;}
+    .row{padding:1em 0; margin:auto; clear:both;}
+    .grid-700{max-width:700px} .grid-800{max-width:800px} .grid-900{max-width:900px} .grid-960{max-width:960px} .grid-1024{max-width:1024px} .grid-1440{max-width:1440px} .grid-1680{max-width:1680px} .grid-1920{max-width:1920px} .grid-2048{max-width:2048px} .grid-4096{max-width:4096px}
+    *[class^=nano-], *[class^=small-], *[class^=medium-], *[class^=large-], *[class^=mega-], *[class^=ultra-] {display:block; width:100%; float:left; padding:0 1em}
 
-/** Breakpoints **/
+/** 2. Alignment & Positioning **/
+    .align-left {text-align:left;} .align-center{text-align:center;} .align-right{text-align:right;}
+    .pull-left{float:left;} .pull-right{float:right;}
+    .clearfix {clear:both;}
+
+/** 7. Breakpoints **/
     /** NANO **/
     @media screen and (min-width:0px) {
         .container {padding:0 1em}
