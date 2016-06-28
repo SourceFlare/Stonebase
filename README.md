@@ -1,6 +1,6 @@
 # Stonebase
 
-[![Code Climate](https://codeclimate.com/github/SourceFlare/Stonebase/badges/gpa.svg)](https://codeclimate.com/github/SourceFlare/Stonebase) [![Issue Count](https://codeclimate.com/github/SourceFlare/Stonebase/badges/issue_count.svg)](https://codeclimate.com/github/SourceFlare/Stonebase)
+[![Code Climate](https://codeclimate.com/github/SourceFlare/Stonebase/badges/gpa.svg?s=10001)](https://codeclimate.com/github/SourceFlare/Stonebase) [![Issue Count](https://codeclimate.com/github/SourceFlare/Stonebase/badges/issue_count.svg?s=10001)](https://codeclimate.com/github/SourceFlare/Stonebase)
 
 Stonebase isn't just another CSS framework, it's much more than that.  Stonebase is mobile-first but specifically developed to work with 4K screens, and up.
 
