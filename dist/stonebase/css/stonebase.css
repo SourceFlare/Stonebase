@@ -99,4 +99,3 @@
    .progress-bar-content:after { content: attr(data-sb-value); max-height:60px;}  
 
 /** END StoneBase **/
-@CHARSET "ISO-8859-1";
