@@ -2,9 +2,9 @@
 
 
 /** 1. Containers, Columns, and Grids **/
-    * {box-sizing:border-box;}
+    .row,* {box-sizing:border-box;}
     .container{padding:0 3em; margin:auto; clear:both;}
-    .row{padding:1em 0; margin:auto; clear:both;}
+    .row{padding:1em 0; margin:auto; height:100%; overflow:auto; clear:both;}
     .grid-700{max-width:700px} .grid-800{max-width:800px} .grid-900{max-width:900px} .grid-960{max-width:960px} .grid-1024{max-width:1024px} .grid-1440{max-width:1440px} .grid-1680{max-width:1680px} .grid-1920{max-width:1920px} .grid-2048{max-width:2048px} .grid-4096{max-width:4096px}
     *[class^=nano-], *[class^=small-], *[class^=medium-], *[class^=large-], *[class^=mega-], *[class^=ultra-] {display:block; width:100%; float:left; padding:0 1em}
 
@@ -49,7 +49,7 @@
  body, html {font-family: 'Josefin Slab', serif; font-size:16px; font-weight: 400 !important; margin:0; padding: 0; color: #000;}
   
 /**FORMATTING**/
-      h1,h2,h3,h4,h5,h6 { font-family: 'Josefin Sans', sans-serif; margin:0.75rem 0; margin-bottom:0.25rem; font-weight:normal; } h1 { font-size:2.5rem; } h2 { font-size:2rem; } h3 { font-size:1.75rem; } h4 { font-size:1.5rem; } h5 { font-size:1.25rem; } h6 { font-size:1rem; }
+      h1,h2,h3,h4,h5,h6 { font-family: 'Josefin Sans', sans-serif; margin:0.75rem 0; margin-bottom:0.25rem; font-weight:normal; }  h1 { font-size:2rem; } h2 { font-size:1.75rem; } h3 { font-size:1.5rem; } h4 { font-size:1.25rem; } h5 { font-size:1rem; }
     p { font-family: 'Josefin Slab', serif; padding:0.5rem 0; }
     .button, button, input, selection { background-color:#9fd709; }
     .normal, .default { background-color:#9fd709; color:#555; } .warning { background-color:rgba(255,200,0,1); color:#fff; } .inactive { background-color:rgba(165,165,165,1); } .success { background-color:rgba(94,174,69,1); color:#fff; } .alert { background-color:rgba(215,65,65,1); color:#fff; } .information { background-color:rgba(25,120,175,1); color:#fff; } .regal { background-color:rgba(120,75,120,1); color:#fff; } .amber { background-color:rgba(220,100,50,1); color:#fff; } .moot { background-color:rgba(70,100,120,1); color:#fff; }
@@ -99,3 +99,4 @@
    .progress-bar-content:after { content: attr(data-sb-value); max-height:60px;}  
 
 /** END StoneBase **/
+@CHARSET "ISO-8859-1";
