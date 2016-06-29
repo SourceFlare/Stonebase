@@ -1,5 +1,6 @@
 /**BREAKPOINTS**/
 
+
 /** 1. Containers, Columns, and Grids **/
     .row,* {box-sizing:border-box;}
     .container{padding:0 3em; margin:auto; clear:both;}
@@ -45,7 +46,7 @@
     }
 
 /**RESETS**/    
- body, html {font-family: 'Josefin Slab', serif; font-size:16px; font-weight: 400 !important; margin:0; padding: 0; color: #000;}
+ body, html {font-family: 'Josefin Slab', serif; font-size:16px; font-weight: 400 !important; margin:0; padding: 0; color: #000;} a{text-decoration:none; color:#2B3A42;}
   
 /**FORMATTING**/
       h1,h2,h3,h4,h5,h6 { font-family: 'Josefin Sans', sans-serif; margin:0.75rem 0; margin-bottom:0.25rem; font-weight:normal; }  h1 { font-size:2rem; } h2 { font-size:1.75rem; } h3 { font-size:1.5rem; } h4 { font-size:1.25rem; } h5 { font-size:1rem; }
@@ -57,45 +58,58 @@
     .dark { background-color:#555; border:1px solid #333; color:#eee; }    
     .white-text { color:#fff; } .black-text { color:#000; }
     .rounded { border-radius:5px; }
+    .hoverable:hover { transition: box-shadow 0.25s;   opacity: 0.8; text-decoration: none;}
+
   
 /**NAVIGATION**/    
     .navlogo{	display: inline-block; color: #fff; text-align: left; padding: 14px 16px; text-decoration: none; line-height: 10px; }
-    ul { list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #2B3A42; max-height:60px; font-size:15px; font-weight:700; font-family: 'Josefin Sans', sans-serif; box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);}
+    ul { list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #3F5765; max-height:60px; font-size:15px; font-weight:700; font-family: 'Josefin Sans', sans-serif;   }
     li { float: right; line-height: 10px; padding:0;}
-    li a, .dropbtn { display: inline-block; color: #fff; text-align: center; padding: 14px 16px; text-decoration: none;}
+    li a, .dropbtn { background-color: #2B3A42; display: inline-block; color: #fff; text-align: center; padding: 14px 16px; text-decoration: none;}
     li a:hover, .dropdown:hover .dropbtn { background-color: #FF530D; margin:0;}
     li.dropdown { display: inline-block;}
-    .dropdown-content { display: none; position: absolute; background-color: #fff; min-width: 160px; box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);}
-    .dropdown-content a { color: #2B3A42; padding: 12px 16px; text-decoration: none; display: block; text-align: left;}
+    .dropdown-content { display: none; position: absolute; background-color: #fff; min-width: 160px;   }
+    .dropdown-content a { color: #fff; padding: 12px 16px; text-decoration: none; display: block; text-align: left;}
     .dropdown-content a:hover { background-color: #FF530D; color: #fff;}
     .dropdown:hover .dropdown-content { display: block;}
 
 /**BUTTONS**/    
-    .btn{ cursor: pointer; background-color: #2B3A42; color: #fff; border-style: solid; border-width: 1px; border-color: #2B3A42; border-radius: 3px; padding: 0.25em 0.5em; line-height:3em !important; margin: 0 0.1em; text-transform:uppercase; font-family: 'Josefin Sans', sans-serif; font-size: 1em; font-weight: 700; text-transform: none; max-height:50px; min width:50px;}
-    .btn:hover{ background-color: #2B3A42; color: #fff; border-style: solid; border-width: 1px; border-color: #2B3A42;   opacity:0.7;}
+    .btn{ cursor: pointer; background-color: #2B3A42; color: #fff; border-style: solid; border-width: 1px; border-color: #2B3A42; border-radius: 5px; padding: 0.25em 0.5em; line-height:3em !important; margin: 0 0.1em; text-transform:uppercase; font-family: 'Josefin Sans', sans-serif; font-size: 1em; font-weight: 700; text-transform: none; max-height:60px; min width:50px;}
+    .btn:hover{ background-color: #2B3A42; color: #fff; border-style: solid; border-width: 1px; border-color: #2B3A42;   opacity:0.7;   }
     .btn:active{ background-color: #D1DBBD; color: #2B3A42; border-style: solid; border-width: 1px; border-color: #D1DBBD;}
     
-    .info{background-color: #1192EE; color: #fff; border-style: solid; border-width: 1px; border-color: #1192EE; border-radius: 3px;}
+    .info{background-color: #1192EE; color: #fff; border-style: solid; border-width: 1px; border-color: #1192EE; border-radius: 5px;}
     .info:hover{ background-color: #1192EE; color: #fff; border-style: solid; border-width: 1px; border-color: #1192EE;  opacity:0.7;}
     
-    .danger{ background-color: #CC151A; color: #fff; border-style: solid; border-width: 1px; border-color: #CC151A; border-radius: 3px;}
+    .danger{ background-color: #CC151A; color: #fff; border-style: solid; border-width: 1px; border-color: #CC151A; border-radius: 5px;}
     .danger:hover{ background-color: #CC151A; color: #fff; border-style: solid; border-width: 1px; border-color: #CC151A; opacity:0.7;}
  
-    .success{ background-color: #14BF2E; color: #fff; border-style: solid; border-width: 1px; border-color: #14BF2E; border-radius: 3px;}
+    .success{ background-color: #14BF2E; color: #fff; border-style: solid; border-width: 1px; border-color: #14BF2E; border-radius: 5px;}
     .success:hover{ background-color: #14BF2E; color: #fff; border-style: solid; border-width: 1px; border-color: #14BF2E; opacity:0.7;}
  
-    .warning{ background-color: #FF530D; color: #fff; border-style: solid; border-width: 1px; border-color: #FF530D; border-radius: 3px; }
+    .warning{ background-color: #FF530D; color: #fff; border-style: solid; border-width: 1px; border-color: #FF530D; border-radius: 5px; }
     .warning:hover{ background-color: #FF530D; color: #fff; border-style: solid; border-width: 1px; border-color: #FF530D; opacity:0.7;}
  
-    .black{ background-color: #000; color: #fff; border-style: solid; border-width: 1px; border-color: #000; border-radius: 3px; }
+    .black{ background-color: #000; color: #fff; border-style: solid; border-width: 1px; border-color: #000; border-radius: 5px; }
     .black:hover{ background-color: #fff; color: #000; border-style: solid; border-width: 1px; border-color: #e3e3e3; opacity:1 !important;}
  
-    .white{ background-color: #fff; color: #000; border-style: solid; border-width: 1px; border-color: #e3e3e3; border-radius: 3px; }
+    .white{ background-color: #fff; color: #000; border-style: solid; border-width: 1px; border-color: #efefef; border-radius: 5px; }
     .white:hover{ background-color: #000000; color: #fff; border-style: solid; border-width: 1px; border-color: #000000; opacity:1 !important;}
     
-   .progress-bar { display:inline-block; border:1px solid #2B3A42;  border-radius: 3px; background-color:#fff; margin:1px 0; max-height:60px;}
-   .progress-bar-content { line-height:2em; max-height:60px; text-align:center; font-weight:bold; background-color: #BDD4DE; color: #2B3A42; font-size:1em; font-family: 'Josefin Sans', sans-serif; padding:1px; width: attr(data-sb-value);}
+/**PROGRESS BAR**/    
+   .progress-bar { display:inline-block; border:1px solid #efefef;  border-radius: 5px; background-color:#fff; margin:1px 0; max-height:60px;}
+   .progress-bar-content { line-height:2em; border-radius: 5px 0 0 5px ; max-height:60px; text-align:center; font-weight:bold; background-color: #3F5765; color: #fff; font-size:1em; font-family: 'Josefin Sans', sans-serif; padding:1px; width: attr(data-sb-value);}
    .progress-bar-content:after { content: attr(data-sb-value); max-height:60px;}  
+   
+/**CARD**/   
+   .card { position: relative; overflow: hidden; margin: 0.5rem 0 1rem 0; background-color: #fff; transition: box-shadow 0.25s; border-radius: 5px; text-decoration: none; border-style: solid; border-width: 1px; border-color: #efefef;}
+   .card-content{padding:0.25em 1em; border-radius: 5px; background-color:#fff; color:#2B3A42;}
+   .card-header{font-family: 'Josefin Sans', sans-serif; margin:0.75rem 0; margin-bottom:0.25rem; font-weight:700;font-size:1.25rem; color:#2B3A42; text-decoration: none !important; }
+
+
+    form,input,button,textarea,select{font-family: 'Josefin Sans', serif; padding:0.5rem 0; }
+    input[type=text],input[type=password],input[type=file],input[type=radio],input[type=checkbox],textarea,select{display:inline-block; margin: 0 0.1em; background-color:#fff; border:1px solid #efefef; border-radius: 5px; padding: 0.25em 0.5em; max-height:60px; min width:50px; line-height:20px;}
+   
 
 /** END StoneBase **/
 @CHARSET "ISO-8859-1";
