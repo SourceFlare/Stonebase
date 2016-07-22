@@ -17,7 +17,9 @@
     @media screen and (min-width:0px) {
         .container {padding:0 1em}
         .nano-1{max-width:4.16666%; } .nano-2{max-width:8.33333%; } .nano-3{max-width:12.49998%; } .nano-4{max-width:16.66664%; } .nano-5{max-width:20.83333%; } .nano-6{max-width:24.99996%; } .nano-7{max-width:29.16662%; } .nano-8{max-width:33.33328%; } .nano-9{max-width:37.49994%; } .nano-10{max-width:41.66666%; } .nano-11{max-width:45.83326%; } .nano-12{max-width:49.99992%; } .nano-13{max-width:54.16658%; } .nano-14{max-width:58.33324%; } .nano-15{max-width:62.49999%; } .nano-16{max-width:66.66656%; } .nano-17{max-width:70.83322%; } .nano-18{max-width:74.99998%; } .nano-19{max-width:79.16654%; } .nano-20{max-width:83.33320%; } .nano-21{max-width:87.49986%; } .nano-22{max-width:91.66652%; } .nano-23{max-width:95.83318%; } .nano-24{max-width:100.0000%; }
-    }
+        
+        nav > ul > li { display:inline-block; } nav > ul > ul { display:none; } nav > ul > ul > li { display:block; } nav > ul > ul > li > ul { position:static; visibility:visible; display:none; } nav > ul > ul ul { padding:0.25em; }
+   }
 
     /** Small **/
     @media screen and (min-width:400px) {
@@ -33,7 +35,8 @@
     /** Large **/
     @media screen and (min-width:1680px) {
         .large-1{max-width:4.16666%; } .large-2{max-width:8.33333%; } .large-3{max-width:12.49998%; } .large-4{max-width:16.66664%; } .large-5{max-width:20.83333%; } .large-6{max-width:24.99996%; } .large-7{max-width:29.16662%; } .large-8{max-width:33.33328%; } .large-9{max-width:37.49994%; } .large-10{max-width:41.66666%; } .large-11{max-width:45.83326%; } .large-12{max-width:49.99992%; } .large-13{max-width:54.16658%; } .large-14{max-width:58.33324%; } .large-15{max-width:62.49999%; } .large-16{max-width:66.66656%; } .large-17{max-width:70.83322%; } .large-18{max-width:74.99998%; } .large-19{max-width:79.16654%; } .large-20{max-width:83.33320%; } .large-21{max-width:87.49986%; } .large-22{max-width:91.66652%; } .large-23{max-width:95.83318%; } .large-24{max-width:100.0000%; }
-    }
+         nav > ul > li { display:none; } nav > ul > ul { display:block; } nav > ul > ul > li { display:inline-block; } nav > ul > ul > li > ul { position:absolute; }
+   }
 
     /** Mega **/
     @media screen and (min-width:2560px) {
@@ -62,16 +65,14 @@
 
   
 /**NAVIGATION**/    
-    .navlogo{	display: inline-block; color: #fff; text-align: left; padding: 14px 16px; text-decoration: none; line-height: 10px; }
-    ul { list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #3F5765; max-height:60px; font-size:15px; font-weight:700; font-family: 'Josefin Sans', sans-serif;   }
-    li { float: right; line-height: 10px; padding:0;}
-    li a, .dropbtn { background-color: #2B3A42; display: inline-block; color: #fff; text-align: center; padding: 14px 16px; text-decoration: none;}
-    li a:hover, .dropdown:hover .dropbtn { background-color: #FF530D; margin:0;}
-    li.dropdown { display: inline-block;}
-    .dropdown-content { display: none; position: absolute; background-color: #fff; min-width: 160px;   }
-    .dropdown-content a { color: #fff; padding: 12px 16px; text-decoration: none; display: block; text-align: left;}
-    .dropdown-content a:hover { background-color: #FF530D; color: #fff;}
-    .dropdown:hover .dropdown-content { display: block;}
+    nav li { line-height:2em; text-align:center; } nav ul { padding:0.5em 1em; }
+    nav a .fa { margin-left:0.25em; } nav ul, nav li, nav a { text-decoration:none; } 
+    nav a:focus, nav a:hover { text-decoration:underline; } 
+    nav > ul > ul > li { display:inline-block; border-right:1px dotted #ccc; } 
+    nav > ul > ul > li > a { display:block; padding:0 1em; } 
+    nav > ul > ul > li > ul { position:absolute; visibility:hidden; } 
+    nav > ul:focus > ul, nav > ul:hover > ul, nav > ul > ul > li:focus > ul, nav > ul > ul > li:hover > ul { display:block; visibility:visible; } 
+    nav > ul > ul ul { margin:0; margin-left:-4px; padding:0 1em 0.5em; font-style:normal; box-shadow:0px 1px 2px #ccc; background-color:#fff; z-index:3000000; }
 
 /**BUTTONS**/    
     .btn{ cursor: pointer; background-color: #2B3A42; color: #fff; border-style: solid; border-width: 1px; border-color: #2B3A42; border-radius: 5px; padding: 0.25em 0.5em; line-height:3em !important; margin: 0 0.1em; text-transform:uppercase; font-family: 'Josefin Sans', sans-serif; font-size: 1em; font-weight: 700; text-transform: none; max-height:60px; min width:50px;}
