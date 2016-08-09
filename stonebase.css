@@ -20,12 +20,12 @@
     a{text-decoration:none; color:#2B3A42;}
 
 /**BUTTONS**/    
-    .btn{ cursor: pointer; background-color: transparent; color: #000; border-style: solid; border-width: 1px; border-color: #000; border-radius: 1px; padding: 0.5em 1em; line-height:3em !important; margin: 0 0.1em; text-transform:uppercase; font-family: 'Josefin Sans', sans-serif; font-size: 1em; font-weight: 500; text-transform: none; letter-spacing:4px; min-height:70px; min width:75px;}
+    .btn{ cursor: pointer; background-color: transparent; color: #000; border-style: solid; border-width: 1px; border-color: #000; border-radius: 1px; padding: 0.5em 1em; line-height:3em !important; margin: 0 0.1em;  font-family: 'Josefin Sans', sans-serif; font-size: 1em; font-weight: 500; text-transform: uppercase; letter-spacing:4px; min-height:70px; min width:75px;}
     .btn:hover{ opacity: 0.8; text-decoration: none; }
     .btn:active{ background-color: #e3e3e3; color: #000; border-style: solid; border-width: 1px; border-color: #000;}
-    .btn-xs{ border-radius: 1px; padding: 0.5em 1em; line-height:3em !important; margin: 0 0.1em; text-transform:uppercase; font-family: 'Josefin Sans', sans-serif; font-size: 0.5em; font-weight: 500; text-transform: none; letter-spacing:2px; max-height:50px; min width:75px;}
-    .btn-sm{  border-radius: 1px; padding: 0.5em 1em; line-height:3em !important; margin: 0 0.1em; text-transform:uppercase; font-family: 'Josefin Sans', sans-serif; font-size: 0.75em; font-weight: 500; text-transform: none; letter-spacing:3px; max-height:75px; min width:75px;}
-    .btn-lg{  border-radius: 1px; padding: 0.5em 1em; line-height:3em !important; margin: 0 0.1em; text-transform:uppercase; font-family: 'Josefin Sans', sans-serif; font-size: 1.5em; font-weight: 500; text-transform: none; letter-spacing:6px; max-height:100px; min width:75px;}
+    .btn-xs{ border-radius: 1px; padding: 0.5em 1em; line-height:3em !important; margin: 0 0.1em; text-transform:uppercase; font-family: 'Josefin Sans', sans-serif; font-size: 0.5em; }
+    .btn-sm{  border-radius: 1px; padding: 0.5em 1em; line-height:3em !important; margin: 0 0.1em; text-transform:uppercase; font-family: 'Josefin Sans', sans-serif; font-size: 0.75em; }
+    .btn-lg{  border-radius: 1px; padding: 0.5em 1em; line-height:3em !important; margin: 0 0.1em; text-transform:uppercase; font-family: 'Josefin Sans', sans-serif; font-size: 1.5em; }
 
 /** NAV BAR **/
     nav {position:relative; clear:both; height:100%;} nav > div > a {border-bottom:1px solid #000;}
@@ -52,40 +52,27 @@
 
 /**COLORS**/
     .green{background-color: #2ECC71; color: #fff; border-radius: 1px; border-color: #2ECC71;}
-    .green:hover{ opacity: 0.8; text-decoration: none; color: #fff;}
-    .green:active{ background-color: #27AE60; color: #fff; border-radius: 1px; border-color: #27AE60;}  
-
+    
     .blue{background-color: #3498DB; color: #fff; border-radius: 1px; border-color: #3498DB;}
-    .blue:hover{ opacity: 0.8; text-decoration: none; color: #fff;}
-    .blue:active{ background-color: #2980B9; color: #fff; border-radius: 1px; border-color: #2980B9;}      
     
     .red{background-color: #E74C3C; color: #fff; border-radius: 1px; border-color: #E74C3C;}
-    .red:hover{ opacity: 0.8; text-decoration: none; color: #fff;}
-    .red:active{ background-color: #C0392B; color: #fff; border-radius: 1px; border-color: #C0392B;}      
-
+  
     .purple{background-color: #9B59B6; color: #fff; border-radius: 1px; border-color: #9B59B6;}
-    .purple:hover{ opacity: 0.8; text-decoration: none; color: #fff;}
-    .purple:active{ background-color: #8E44AD; color: #fff; border-radius: 1px; border-color: #8E44AD;}      
     
     .yellow{background-color: #F1C40F; color: #fff; border-radius: 1px; border-color: #F1C40F;}
-    .yellow:hover{ opacity: 0.8; text-decoration: none; color: #fff;}
-    .yellow:active{ background-color: #F39C12; color: #fff; border-radius: 1px; border-color: #F39C12;}      
     
     .orange{background-color: #E67E22; color: #fff; border-radius: 1px; border-color: #E67E22;}
-    .orange:hover{ opacity: 0.8; text-decoration: none; color: #fff;}
-    .orange:active{ background-color: #D35400; color: #fff; border-radius: 1px; border-color: #D35400;}    
-
+    
     .midnight{background-color: #34495E; color: #fff; border-radius: 1px; border-color: #34495E;}
-    .midnight:hover{ opacity: 0.8; text-decoration: none; color: #fff;}
-    .midnight:active{ background-color: #2C3E50; color: #fff; border-radius: 1px; border-color: #2C3E50;}  
-
+   
+    .slate{background-color: #2F4F4F; color: #fff; border-radius: 1px; border-color: #2F4F4F;}
+        
     .grey{background-color: #95A5A6; color: #fff; border-radius: 1px; border-color: #95A5A6;}
-    .grey:hover{ opacity: 0.8; text-decoration: none; color: #fff;}
-    .grey:active{ background-color: #7F8C8D; color: #fff; border-radius: 1px; border-color: #7F8C8D;}  
-
-    .silver{background-color: #ECF0F1; color: #fff; border-radius: 1px; border-color: #ECF0F1;}
-    .silver:hover{ opacity: 0.8; text-decoration: none; color: #fff;}
-    .silver:active{ background-color: #BDC3C7; color: #fff; border-radius: 1px; border-color: #BDC3C7;}      
+    
+    .silver{background-color: #ECF0F1; color: #000; border-radius: 1px; border-color: #ECF0F1;}
+    .black{background-color: #000; color: #fff; border-radius: 1px; border-color: #000;}
+    .white{background-color: #fff; color: #000; border-radius: 1px; border-color: #fff;}
+    
     
 /**BREAKPOINTS**/
     /** Nano **/
