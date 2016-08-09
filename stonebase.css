@@ -37,7 +37,7 @@
     .btn-dropdown > ul > li > a {line-height:2em; color:#fff; }
 
 /** FIGURE / QUOTE **/
-    figure,figcapture {display:block; background-color:#C02942; color:#fff; padding:2em; border-left:1em solid #542437; -webkit-border-top-right-radius:0.25em; -moz-border-top-right-radius:0.25em; border-top-right-radius:0.25em; -webkit-border-bottom-right-radius:0.25em; -moz-border-bottom-right-radius:0.25em; border-bottom-right-radius:0.25em;}
+    figure,figcapture {display:block; margin: 0 0; background-color:#C02942; color:#fff; padding:2em; border-left:1em solid #542437; -webkit-border-top-right-radius:0.25em; -moz-border-top-right-radius:0.25em; border-top-right-radius:0.25em; -webkit-border-bottom-right-radius:0.25em; -moz-border-bottom-right-radius:0.25em; border-bottom-right-radius:0.25em;}
     figure h1,figure h2,figure h3,figcapture h1,figcapture h2,figcapture h3 {margin:0 0 0.5em; vertical-align:middle; font-weight:normal;}
     figure .fa, figcapture .fa {font-size:1.25em; margin:0; margin-right:0.25em;}
 
