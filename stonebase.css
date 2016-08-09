@@ -37,7 +37,7 @@
     .btn-dropdown > ul > li > a {line-height:2em; color:#fff; }
 
 /** FIGURE / QUOTE **/
-    figure,figcapture {display:block; background-color:#C02942; color:#fff; padding:2em; border-left:1em solid #542437; -webkit-border-top-right-radius:0.25em; -moz-border-top-right-radius:0.25em; border-top-right-radius:0.25em; -webkit-border-bottom-right-radius:0.25em; -moz-border-bottom-right-radius:0.25em; border-bottom-right-radius:0.25em;}
+    figure,figcapture {display:block; margin: 0 0; background-color:#C02942; color:#fff; padding:2em; border-left:1em solid #542437; -webkit-border-top-right-radius:0.25em; -moz-border-top-right-radius:0.25em; border-top-right-radius:0.25em; -webkit-border-bottom-right-radius:0.25em; -moz-border-bottom-right-radius:0.25em; border-bottom-right-radius:0.25em;}
     figure h1,figure h2,figure h3,figcapture h1,figcapture h2,figcapture h3 {margin:0 0 0.5em; vertical-align:middle; font-weight:normal;}
     figure .fa, figcapture .fa {font-size:1.25em; margin:0; margin-right:0.25em;}
 
@@ -47,6 +47,12 @@
     nav > div:hover > ul, nav > div:focus > ul {display:block; z-index:4000000;}
     nav a {display:block; line-height:2em;} nav a:hover{opacity:0.8;}
     nav li {padding:0 0;}
+
+/** TABLES **/
+    .table {width:100%; padding:0 0; border-collapse: collapse; border:1px solid #ccc;}
+    .table th, .table td {margin:0 0; text-align:center; border-right:1px solid #ccc; padding:0.25em 0.5em;} .table th:last-child, .table td:last-child{border-right:0;}
+    .table tr {background-color:#fff; border-bottom:1px solid #ccc;} .table-bands tr:nth-child(even){background-color:#f5f5f5;} 
+    .table thead > tr, .table > tr:first-child {font-weight:bold; background-color:#f5f5f5; border-bottom:2px solid #ccc;}
 
 /**PROGRESS BAR**/    
    .progress-bar { display:inline-block; border:1px solid #000;  border-radius: 1px; background-color:#fff; margin:1px 0; max-height:60px;}
