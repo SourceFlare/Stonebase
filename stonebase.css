@@ -60,7 +60,7 @@
 
 /** FORMS **/
     form,input,button,textarea,select{font-family: 'Josefin Sans', serif; padding:0.5rem 0; }
-    input[type=text],input[type=password],input[type=file],input[type=radio],input[type=checkbox],textarea,select{display:inline-block; margin: 0 0.1em; background-color:#fff; border:1px solid #efefef; border-radius: 5px; padding: 0.25em 0.5em; max-height:60px; min width:50px; line-height:20px;}
+    input[type=text],input[type=password],input[type=file],input[type=radio],input[type=checkbox],textarea,select{display:inline-block; margin: 0 0.1em; background-color:#fff; border:1px solid #efefef; border-radius: 5px; padding: 0.25em 0.5em; max-height:60px; min-width:50px; line-height:20px;}
 
 /**COLORS**/
     .green{background-color: #2ECC71; color: #fff; border-radius: 1px; border-color: #2ECC71;}
