@@ -29,10 +29,8 @@
 
 /** NAV BAR **/
     nav {position:relative; clear:both; height:100%;} nav > div > a {border-bottom:1px solid #000;}
-    nav > div > ul {width:100%; position:absolute; top:2em; left:0; margin:0 0; display:none; background-color:#223344; color:#fff; border:1px solid #000; border-top:0; padding:0 0; list-style-type:none;} 
-    nav > div > ul > li {background-color:#223344;}
-    nav > div > ul a {color:#fff;}
-    nav > div:hover > a, nav > div:focus > a {background:#223344; color:#fff;} nav > div:hover > ul, nav > div:focus > ul {display:block; z-index:4000000;}
+    nav > div > ul {width:100%; position:absolute; top:2em; left:0; margin:0 0; display:none; box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25); background:#fff; border-top:0; padding:0 0; list-style-type:none;} 
+    nav > div:hover > ul, nav > div:focus > ul {display:block; z-index:4000000;}
     nav a {display:block; line-height:2em;}
     nav li {padding:0 0;}
 
