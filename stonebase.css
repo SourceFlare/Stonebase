@@ -29,10 +29,11 @@
 
 /** NAV BAR **/
     nav {position:relative; clear:both; height:100%;} nav > div > a {border-bottom:1px solid #000;}
-    nav > div > ul {width:100%; position:absolute; top:1.5em; left:0; z-index:3000000; display:none; background-color:#223344; color:#fff; border:1px solid #000; border-top:0; padding:0 0; list-style-type:none;} 
+    nav > div > ul {width:100%; position:absolute; top:2em; left:0; margin:0 0; display:none; background-color:#223344; color:#fff; border:1px solid #000; border-top:0; padding:0 0; list-style-type:none;} 
+    nav > div > ul > li {background-color:#223344;}
     nav > div > ul a {color:#fff;}
-    nav > div:hover > a, nav > div:focus > a {background:#223344; color:#fff;} nav > div:hover > ul, nav > div:focus > ul {display:block;}
-    nav a {display:block; line-height:1.5em;}
+    nav > div:hover > a, nav > div:focus > a {background:#223344; color:#fff;} nav > div:hover > ul, nav > div:focus > ul {display:block; z-index:4000000;}
+    nav a {display:block; line-height:2em;}
     nav li {padding:0 0;}
 
 /**PROGRESS BAR**/    
@@ -78,8 +79,7 @@
     @media screen and (min-width:0px) {
         .container {padding:0 1em}
         .nano-1{max-width:4.16666%; } .nano-2{max-width:8.33333%; } .nano-3{max-width:12.49998%; } .nano-4{max-width:16.66664%; } .nano-5{max-width:20.83333%; } .nano-6{max-width:24.99996%; } .nano-7{max-width:29.16662%; } .nano-8{max-width:33.33328%; } .nano-9{max-width:37.49994%; } .nano-10{max-width:41.66666%; } .nano-11{max-width:45.83326%; } .nano-12{max-width:49.99992%; } .nano-13{max-width:54.16658%; } .nano-14{max-width:58.33324%; } .nano-15{max-width:62.49999%; } .nano-16{max-width:66.66656%; } .nano-17{max-width:70.83322%; } .nano-18{max-width:74.99998%; } .nano-19{max-width:79.16654%; } .nano-20{max-width:83.33320%; } .nano-21{max-width:87.49986%; } .nano-22{max-width:91.66652%; } .nano-23{max-width:95.83318%; } .nano-24{max-width:100.0000%; }
-        
-        nav > ul > li { display:inline-block; } nav > ul > ul { display:none; } nav > ul > ul > li { display:block; } nav > ul > ul > li > ul { position:static; visibility:visible; display:none; } nav > ul > ul ul { padding:0.25em; }
+        nav, nav > div > ul {position:static;}
    }
 
     /** Small **/
