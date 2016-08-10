@@ -23,13 +23,13 @@
     .btn:active{ background-color:#e3e3e3; color:#000; border:1px solid #000;}
     .btn-xs{font-size:0.5em;} .btn-sm{font-size:0.75em;} .btn-lg{font-size:1.5em;}
 
-    .btn-dropdown{position:relative; list-style-type:none; display:inline-block; min-width:10em; line-height:1.5em; padding-right:0;}
+    .btn-dropdown{position:relative; list-style-type:none; display:inline-block; min-width:10em; line-height:1.5em; margin:2px 0; padding:0.25em 1em; padding-right:0;}
     .btn-dropdown > span {padding:0 0;}
     .btn-dropdown > a {border-left:1px solid #fff; text-align:center; display:block; float:right; width:3em; margin-left:0.75em; font-weight:bold;} .btn-dropdown .fa {color:#fff;}
-    .btn-dropdown > ul {position:absolute; top:2.5em; left:-1px; line-height:1.5em; background-color:inherit; display:none; list-style-type:none;}
+    .btn-dropdown > ul {position:absolute; top:2em; left:0; line-height:1.5em; background-color:inherit; display:none; list-style-type:none;}
     .btn-dropdown ul {padding:0 0; margin:0 0;}
     .btn-dropdown:hover > ul, .btn-dropdown:focus > ul {display:block; z-index:3000;}
-    .btn-dropdown > ul > li {border-bottom:1px dotted #777; color:#fff; padding:0.25em 1em;} .btn-dropdown > ul > li:last-child {border-bottom:0;}
+    .btn-dropdown > ul > li {border-bottom:1px dotted #fff; color:inherit; padding:0.25em 1em;} .btn-dropdown > ul > li:last-child {border-bottom:0;}
     .btn-dropdown > ul > li > a {line-height:2em; color:inherit; }
 
 /** FIGURE / QUOTE **/
@@ -37,10 +37,10 @@
     figure .fa, figcapture .fa {font-size:1.25em; margin:0; margin-right:0.25em;}
 
 /** NAV BAR **/
-    nav {position:relative; clear:both; height:100%; z-index:5000000;}
-    nav > div > ul {width:100%; position:absolute; top:2em; left:0; margin:0 0; display:none; background:#fff; opacity:0.95; border-top:0; padding:0 0; list-style-type:none;} 
+    nav {position:relative; clear:both; height:100%; z-index:5000000;} nav > div {background:inherit; color:inherit;}
+    nav > div > ul {width:100%; position:absolute; top:2em; left:0; margin:0 0; display:none; background:inherit; color:inherit; opacity:0.95; border-top:0; padding:0 0; list-style-type:none;} 
     nav > div:hover > ul, nav > div:focus > ul {display:block; z-index:4000000;}
-    nav a {display:block; line-height:2em;} nav a:hover{opacity:0.8;}
+    nav a {display:block; line-height:2em; color:inherit;} nav a:hover{opacity:0.8;}
     nav li {padding:0 0;}
     
 /** TABLES **/
@@ -64,7 +64,7 @@
     input[type=text],input[type=password],input[type=file],input[type=radio],input[type=checkbox],textarea,select{display:inline-block; margin: 0 0.1em; background-color:#fff; border:1px solid #efefef; border-radius: 5px; padding: 0.25em 0.5em; max-height:60px; min-width:50px; line-height:20px;}
 
 /**COLORS**/
-    .green,.blue,.red,.purple,.yellow,.orange,.midnight,.slate,.grey,.black{color:#fff;} .silver,.white{color:#000;}
+    .green,.blue,.red,.purple,.yellow,.orange,.midnight,.slate,.grey,.black{color:#fff; border:0;} .silver,.white{color:#000;}
     .green{background-color: #2ECC71;}    .blue{background-color: #3498DB;}
     .red{background-color: #E74C3C;}      .purple{background-color: #9B59B6;}
     .yellow{background-color: #F1C40F;}   .orange{background-color: #E67E22;}
