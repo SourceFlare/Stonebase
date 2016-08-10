@@ -18,19 +18,19 @@
     .clearfix {clear:both;}
 
 /**BUTTONS**/    
-    .btn{ cursor:pointer; background-color:transparent; color:#000; border:1px solid #000; padding:0.5em 1em; line-height:3em; margin:0 0.1em; font-weight:normal; text-transform:uppercase; letter-spacing:0.25em; min-width:5em;}
+    .btn{ cursor:pointer; color:#000; border:1px solid #000; padding:0.5em 1em; line-height:3em; margin:0 0.1em; font-weight:normal; text-transform:uppercase; letter-spacing:0.25em; min-width:5em;}
     .btn:hover{ opacity: 0.8; text-decoration: none; }
     .btn:active{ background-color:#e3e3e3; color:#000; border:1px solid #000;}
     .btn-xs{font-size:0.5em;} .btn-sm{font-size:0.75em;} .btn-lg{font-size:1.5em;}
 
-    .btn-dropdown {position:relative; list-style-type:none; display:block; width:auto; width:15em; line-height:1.5em; padding-right:0; clear:both;} 
+    .btn-dropdown{position:relative; list-style-type:none; display:inline-block; min-width:10em; line-height:1.5em; padding-right:0;}
     .btn-dropdown > span {padding:0 0;}
-    .btn-dropdown > a {border-left:1px solid #777; text-align:center; display:block; float:right; width:3em; line-height:1.5em; font-weight:bold;}
-    .btn-dropdown > ul {position:absolute; top:2.5em; left:-1px; line-height:1.5em; background:#000; z-index:30000000; display:none; list-style-type:none;}
+    .btn-dropdown > a {border-left:1px solid #fff; text-align:center; display:block; float:right; width:3em; margin-left:0.75em; font-weight:bold;} .btn-dropdown .fa {color:#fff;}
+    .btn-dropdown > ul {position:absolute; top:2.5em; left:-1px; line-height:1.5em; background-color:inherit; display:none; list-style-type:none;}
     .btn-dropdown ul {padding:0 0; margin:0 0;}
-    .btn-dropdown:hover, .btn-dropdown:focus {background-color:#000; color:#fff;} .btn-dropdown:hover > ul, .btn-dropdown:focus > ul {display:block;}
+    .btn-dropdown:hover > ul, .btn-dropdown:focus > ul {display:block; z-index:3000;}
     .btn-dropdown > ul > li {border-bottom:1px dotted #777; color:#fff; padding:0.25em 1em;} .btn-dropdown > ul > li:last-child {border-bottom:0;}
-    .btn-dropdown > ul > li > a {line-height:2em; color:#fff; }
+    .btn-dropdown > ul > li > a {line-height:2em; color:inherit; }
 
 /** FIGURE / QUOTE **/
     figure,figcapture {display:block; margin:0 0; background-color:#C02942; color:#fff; padding:2em; border-left:1em solid #542437; -webkit-border-top-right-radius:0.25em; -moz-border-top-right-radius:0.25em; border-top-right-radius:0.25em; -webkit-border-bottom-right-radius:0.25em; -moz-border-bottom-right-radius:0.25em; border-bottom-right-radius:0.25em;}
@@ -64,18 +64,13 @@
     input[type=text],input[type=password],input[type=file],input[type=radio],input[type=checkbox],textarea,select{display:inline-block; margin: 0 0.1em; background-color:#fff; border:1px solid #efefef; border-radius: 5px; padding: 0.25em 0.5em; max-height:60px; min-width:50px; line-height:20px;}
 
 /**COLORS**/
-    .green{background-color: #2ECC71; color: #fff; border-radius: 1px; border-color: #2ECC71;}
-    .blue{background-color: #3498DB; color: #fff; border-radius: 1px; border-color: #3498DB;}
-    .red{background-color: #E74C3C; color: #fff; border-radius: 1px; border-color: #E74C3C;}
-    .purple{background-color: #9B59B6; color: #fff; border-radius: 1px; border-color: #9B59B6;}
-    .yellow{background-color: #F1C40F; color: #fff; border-radius: 1px; border-color: #F1C40F;}
-    .orange{background-color: #E67E22; color: #fff; border-radius: 1px; border-color: #E67E22;}
-    .midnight{background-color: #34495E; color: #fff; border-radius: 1px; border-color: #34495E;}
-    .slate{background-color: #2F4F4F; color: #fff; border-radius: 1px; border-color: #2F4F4F;}
-    .grey{background-color: #95A5A6; color: #fff; border-radius: 1px; border-color: #95A5A6;}
-    .silver{background-color: #ECF0F1; color: #000; border-radius: 1px; border-color: #ECF0F1;}
-    .black{background-color: #000; color: #fff; border-radius: 1px; border-color: #000;}
-    .white{background-color: #fff; color: #000; border-radius: 1px; border-color: #fff;}
+    .green,.blue,.red,.purple,.yellow,.orange,.midnight,.slate,.grey,.black{color:#fff;} .silver,.white{color:#000;}
+    .green{background-color: #2ECC71;}    .blue{background-color: #3498DB;}
+    .red{background-color: #E74C3C;}      .purple{background-color: #9B59B6;}
+    .yellow{background-color: #F1C40F;}   .orange{background-color: #E67E22;}
+    .midnight{background-color: #34495E;} .slate{background-color: #2F4F4F;}
+    .grey{background-color: #95A5A6;}     .silver{background-color: #ECF0F1;}
+    .black{background-color: #000;}       .white{background-color: #fff;}
 
 /**BREAKPOINTS**/
     /** Nano **/
