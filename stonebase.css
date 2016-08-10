@@ -18,9 +18,9 @@
     .clearfix {clear:both;}
 
 /**BUTTONS**/    
-    .btn{ cursor: pointer; background-color: transparent; color: #000; border:1px solid #000; padding:0.5em 1em; line-height:3em; margin:0 0.1em; font-weight:500; text-transform:uppercase; letter-spacing:0.25em; min-width:5em;}
+    .btn{ cursor:pointer; background-color:transparent; color:#000; border:1px solid #000; padding:0.5em 1em; line-height:3em; margin:0 0.1em; font-weight:normal; text-transform:uppercase; letter-spacing:0.25em; min-width:5em;}
     .btn:hover{ opacity: 0.8; text-decoration: none; }
-    .btn:active{ background-color: #e3e3e3; color: #000; border:1px solid #000;}
+    .btn:active{ background-color:#e3e3e3; color:#000; border:1px solid #000;}
     .btn-xs{font-size:0.5em;} .btn-sm{font-size:0.75em;} .btn-lg{font-size:1.5em;}
 
     .btn-dropdown {position:relative; list-style-type:none; display:block; width:auto; width:15em; line-height:1.5em; padding-right:0; clear:both;} 
@@ -33,7 +33,7 @@
     .btn-dropdown > ul > li > a {line-height:2em; color:#fff; }
 
 /** FIGURE / QUOTE **/
-    figure,figcapture {display:block; margin: 0 0; background-color:#C02942; color:#fff; padding:2em; border-left:1em solid #542437; -webkit-border-top-right-radius:0.25em; -moz-border-top-right-radius:0.25em; border-top-right-radius:0.25em; -webkit-border-bottom-right-radius:0.25em; -moz-border-bottom-right-radius:0.25em; border-bottom-right-radius:0.25em;}
+    figure,figcapture {display:block; margin:0 0; background-color:#C02942; color:#fff; padding:2em; border-left:1em solid #542437; -webkit-border-top-right-radius:0.25em; -moz-border-top-right-radius:0.25em; border-top-right-radius:0.25em; -webkit-border-bottom-right-radius:0.25em; -moz-border-bottom-right-radius:0.25em; border-bottom-right-radius:0.25em;}
     figure .fa, figcapture .fa {font-size:1.25em; margin:0; margin-right:0.25em;}
 
 /** NAV BAR **/
@@ -49,15 +49,15 @@
     .table tr {background-color:#fff; border-bottom:1px solid #ccc;} .table-bands tr:nth-child(even){background-color:#f5f5f5;} 
     .table thead > tr, .table > tr:first-child {font-weight:bold; background-color:#f5f5f5; border-bottom:2px solid #ccc;}
 
-/**PROGRESS BAR**/    
-   .progress-bar { display:inline-block; border:1px solid #000;  border-radius: 1px; background-color:#fff; margin:1px 0; max-height:60px;}
-   .progress-bar-content { line-height:2em; border-radius: 1px 0 0 1px ; max-height:60px; text-align:center; font-weight:bold; background-color: #000; color: #fff; font-size:1em; font-weight:500; letter-spacing:2px; font-family: 'Josefin Sans', sans-serif; padding:1px; width: attr(data-sb-value);}
-   .progress-bar-content:after { content: attr(data-sb-value); max-height:60px;}  
+/**PROGRESS BAR**/
+   .progress-bar {display:inline-block; border:1px solid #000;  background-color:#fff; margin:1px 0;}
+   .progress-bar-content {line-height:2em; text-align:center; background-color: #000; color: #fff; font-size:1em; letter-spacing:2px; padding:1px; width:attr(data-sb-value);}
+   .progress-bar-content:after {content:attr(data-sb-value);}
 
 /**CARD**/   
-   .card { position: relative; overflow: hidden; margin: 0.5rem 0 1rem 0; background-color: #fff; transition: box-shadow 0.25s; border-radius: 5px; text-decoration: none; border-style: solid; border-width: 1px; border-color: #efefef;}
+   .card { position:relative; overflow:hidden; margin:0.5rem 0 1rem 0; background-color:#fff; transition:box-shadow 0.25s; border-radius:5px; text-decoration:none; border: 1px solid #efefef;}
    .card-content{padding:0.25em 1em; border-radius: 5px; background-color:#fff; color:#2B3A42;}
-   .card-header{font-family: 'Josefin Sans', sans-serif; margin:0.75rem 0; margin-bottom:0.25rem; font-weight:700;font-size:1.25rem; color:#2B3A42; text-decoration: none; }
+   .card-header{margin:0.75rem 0 0.25rem; font-weight:bold; font-size:1.25rem; color:#2B3A42; text-decoration:none;}
 
 /** FORMS **/
     form,input,button,textarea,select{font-family: 'Josefin Sans', serif; padding:0.5rem 0; }
