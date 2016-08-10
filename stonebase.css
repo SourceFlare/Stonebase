@@ -1,5 +1,5 @@
 /**RESETS**/    
-    body, html {font-family: 'Josefin Sans', serif; font-size:16px; font-weight:400; margin:0; padding:0; color:#000;} 
+    body, html {font-size:16px; font-weight:400; margin:0; padding:0; color:#000;} 
 
 /**FORMATTING**/
     h1,h2,h3,h4,h5,h6 {margin:1rem 0; font-weight:normal;}  h1 {font-size:2.5rem;} h2 {font-size:2rem;} h3 { font-size:1.75rem; } h4 { font-size:1.5rem; } h5 { font-size:1.25rem; }
@@ -38,7 +38,7 @@
 
 /** NAV BAR **/
     nav {position:relative; clear:both; height:100%; z-index:5000000;}
-    nav > div > ul {width:100%; position:absolute; top:2em; left:0; margin:0 0; display:none; background:#fff; opacity:0.8; border-top:0; padding:0 0; list-style-type:none;} 
+    nav > div > ul {width:100%; position:absolute; top:2em; left:0; margin:0 0; display:none; background:#fff; opacity:0.95; border-top:0; padding:0 0; list-style-type:none;} 
     nav > div:hover > ul, nav > div:focus > ul {display:block; z-index:4000000;}
     nav a {display:block; line-height:2em;} nav a:hover{opacity:0.8;}
     nav li {padding:0 0;}
@@ -60,7 +60,7 @@
    .card-header{margin:0.75rem 0 0.25rem; font-weight:bold; font-size:1.25rem; color:#2B3A42; text-decoration:none;}
 
 /** FORMS **/
-    form,input,button,textarea,select{font-family: 'Josefin Sans', serif; padding:0.5rem 0; }
+    form,input,button,textarea,select{padding:0.5rem 0; }
     input[type=text],input[type=password],input[type=file],input[type=radio],input[type=checkbox],textarea,select{display:inline-block; margin: 0 0.1em; background-color:#fff; border:1px solid #efefef; border-radius: 5px; padding: 0.25em 0.5em; max-height:60px; min-width:50px; line-height:20px;}
 
 /**COLORS**/
