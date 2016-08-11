@@ -1,3 +1,10 @@
+/**
+ Name        : Stonebase
+ Version     : 0.4.0
+ Author      : Sourceflare
+ Description : Stonebase is a 24 point mobile-first CSS framework compatible with 4K screens.
+**/
+
 /**RESETS**/    
     body, html {font-size:16px; font-weight:400; margin:0; padding:0; color:#000; letter-spacing:0.1em;} 
 
