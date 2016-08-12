@@ -37,28 +37,28 @@
     .btn-dropdown ul {padding:0 0; margin:0 0;}
     .btn-dropdown:hover > ul, .btn-dropdown:focus > ul {display:block; z-index:3000;}
     .btn-dropdown > ul > li {border-bottom:1px dotted #fff; color:inherit; padding:0.25em 1em;} .btn-dropdown > ul > li:last-child {border-bottom:0;}
-    .btn-dropdown > ul > li > a {line-height:2em; color:inherit; }
+    .btn-dropdown > ul > li > a {line-height:1.5em; color:inherit; }
 
 /** FIGURE / QUOTE **/
-    figure,figcapture {display:block; margin:0 0; background-color:#C02942; color:#fff; padding:2em; border-left:1em solid #542437; -webkit-border-top-right-radius:0.25em; -moz-border-top-right-radius:0.25em; border-top-right-radius:0.25em; -webkit-border-bottom-right-radius:0.25em; -moz-border-bottom-right-radius:0.25em; border-bottom-right-radius:0.25em;}
+    figure,figcapture {display:block; margin:0 0; background-color:#C02942; color:#fff; padding:1.5em; border-left:1em solid #542437; -webkit-border-top-right-radius:0.25em; -moz-border-top-right-radius:0.25em; border-top-right-radius:0.25em; -webkit-border-bottom-right-radius:0.25em; -moz-border-bottom-right-radius:0.25em; border-bottom-right-radius:0.25em;}
     figure .fa, figcapture .fa {font-size:1.25em; margin:0; margin-right:0.25em;}
 
 /** NAV BAR **/
     nav {position:relative; clear:both; height:100%; z-index:5000000;} nav > div {background:inherit; color:inherit;}
     nav > div > ul {width:100%; position:absolute; top:2em; left:0; margin:0 0; display:none; background:inherit; color:inherit; opacity:0.95; border-top:0; padding:0 0; list-style-type:none;} 
     nav > div:hover > ul, nav > div:focus > ul {display:block; z-index:4000000;}
-    nav a {display:block; line-height:2em; color:inherit;} nav a:hover{opacity:0.8;}
+    nav a {display:block; line-height:1.5em; color:inherit;} nav a:hover{opacity:0.8;}
     nav li {padding:0 0;}
     
 /** TABLES **/
     .table {width:100%; padding:0 0; border-collapse: collapse; border:1px solid #ccc;}
-    .table th, .table td {margin:0 0; text-align:center; border-right:1px solid #ccc; line-height:2em; padding:0.25em 0.5em;}
+    .table th, .table td {margin:0 0; text-align:center; border-right:1px solid #ccc; line-height:1.5em; padding:0.25em 0.5em;}
     .table tr {background-color:#fff; border-bottom:1px solid #ccc;} .table-bands tr:nth-child(even){background-color:#f5f5f5;} 
     .table thead > tr, .table > tr:first-child {font-weight:bold; background-color:#f5f5f5; border-bottom:2px solid #ccc;}
 
 /**PROGRESS BAR**/
    .progress-bar {display:inline-block; border:1px solid #000;  background-color:#fff; margin:1px 0;}
-   .progress-bar-content {line-height:2em; text-align:center; background-color: #000; color: #fff; font-size:1em; letter-spacing:2px; padding:1px; width:attr(data-sb-value);}
+   .progress-bar-content {line-height:1.5em; text-align:center; background-color: #000; color: #fff; font-size:1em; letter-spacing:2px; padding:1px; width:attr(data-sb-value);}
    .progress-bar-content:after {content:attr(data-sb-value);}
 
 /**CARD**/   
@@ -78,6 +78,9 @@
     .midnight{background-color:#34495E;} .slate{background-color:#2F4F4F;}
     .grey{background-color:#95A5A6;}     .silver{background-color:#ECF0F1;}
     .black{background-color:#000;}       .white{background-color:#fff;}
+
+/** Styling **/
+    .newspaper-text::first-letter, .newspaper-text p::first-letter {font-size:5em; display:inline-block; position:relative; margin:0 0 0 -0.25em;}
 
 /**BREAKPOINTS**/
     /** Nano **/
